@@ -1,0 +1,64 @@
+body {
+    background: #33e6ec;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+   
+}
+
+.caixa button:hover {
+    color: #C78C19;;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.texto li {
+    display: Inline-block;
+    text-align: center;
+    width: 90%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+h2 {
+  
+    color: var(#0e0c0c);
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-align: left;
+  
+  }
